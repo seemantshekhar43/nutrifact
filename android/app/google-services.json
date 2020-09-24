@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "78207862825",
+    "firebase_url": "https://nutrifact-d7a99.firebaseio.com",
+    "project_id": "nutrifact-d7a99",
+    "storage_bucket": "nutrifact-d7a99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78207862825:android:4c7b4871b5c06fe0d8b438",
+        "android_client_info": {
+          "package_name": "com.seemantshekhar.nutrifact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78207862825-81uehqpju50ujme2phsg96g8j97qs74m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG3x_9RIPNlrAUhwU3d-SwDPX43oFh-5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78207862825-81uehqpju50ujme2phsg96g8j97qs74m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
