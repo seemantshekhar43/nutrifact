@@ -107,11 +107,12 @@ class _CameraScreenState extends State {
                   padding: EdgeInsets.all(15),
                   color: Colors.black,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       _cameraToggleRowWidget(),
+
                       _cameraControlWidget(context),
-                      Spacer(),
+
                       IconButton(
                         icon: Icon(Icons.image, color: Colors.white,),
                         onPressed: (){
@@ -182,23 +183,21 @@ class _CameraScreenState extends State {
     CameraDescription selectedCamera = cameras[selectedCameraIndex];
     CameraLensDirection lensDirection = selectedCamera.lensDirection;
 
-    return Expanded(
-      child: Align(
-        alignment: Alignment.centerLeft,
-        child: FlatButton.icon(
-          onPressed: _onSwitchCamera,
-          icon: Icon(
-            _getCameraLensIcon(lensDirection),
-            color: Colors.white,
-            size: 24,
-          ),
-          label: Text(
-              '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.w500
-              ),),
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: FlatButton.icon(
+        onPressed: _onSwitchCamera,
+        icon: Icon(
+          _getCameraLensIcon(lensDirection),
+          color: Colors.white,
+          size: 24,
         ),
+        label: Text(
+            '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.w500
+            ),),
       ),
     );
   }

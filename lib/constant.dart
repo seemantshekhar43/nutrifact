@@ -11,3 +11,13 @@ const TextStyle kLabelSubsTextStyle = TextStyle(
   fontWeight: FontWeight.w500,
   color: Colors.white,
 );
+const TextStyle kWhiteButtonTextStyle = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  color: Colors.white,
+);
+const TextStyle kBlackButtonTextStyle = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  color: Colors.black,
+);
