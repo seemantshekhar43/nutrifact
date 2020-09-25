@@ -8,6 +8,21 @@ Nutrifact is a nutrition app, developed as a solution for problem statement give
 - Flutter (Dart)
 - Java
 
+## Problem Statement
+One of the challenges most manufacturers face while packaging their products is ensuring all
+relevant information is available on the labels.
+For this challenge, the participants can take any leading soft drink brand and perform OCR on
+the text, extract information from the same and then check whether key information is present
+or not.
+For this challenge the user should extract information like quantity, ingredients etc.
+Create an OCR system which works on major soft drink brands pet bottles/cans and checks for
+these entities.
+- Manufacturer’s details
+-  Ingredients
+-  Nutritional Facts
+-  Quantity
+-  Caffeine present or not.
+
 ## Features
 - Take picture of manufactured  item.
 - Apply OCR to extract nutrient information, ingredients and presence of caffeine.
