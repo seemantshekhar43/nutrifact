@@ -24,7 +24,7 @@ these entities.
 -  Caffeine present or not.
 
 ## Features
-- Take picture of manufactured  item.
+- Take picture of food item.
 - Apply OCR to extract nutrient information, ingredients and presence of caffeine.
 - Display the information in organised manner.
 - Analysis of nutrients and micronutrients present.
