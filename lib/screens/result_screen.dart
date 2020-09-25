@@ -35,6 +35,9 @@ class _ResultScreenState extends State<ResultScreen> {
         _nutrients.add(element);
     });
     _nutrients.sort(((a, b) => (b.percentage -a.percentage).toInt()));
+    if(result.manufacturer.contains('COCACOLA')){
+      result.manufacturer = 'HINDUSTAN COCA COLA BEVERAGES PVT. LTD';
+    }
    // initialiseResult();
     super.initState();
   }
@@ -341,6 +344,30 @@ class _ResultScreenState extends State<ResultScreen> {
                         ],
                       ),
                     ),
+                    SizedBox(height: 8,),
+                    Center(
+                      child: Container(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+
+                            CircleAvatar(
+
+                              radius: 15,
+
+                              child: Image.asset('assets/images/icon.png',
+                                  fit: BoxFit.contain),
+                            ),
+                            SizedBox(width: 6),
+                            Text('Nutrifact', style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                              color: Colors.black
+                            ),)
+                          ],
+                        ),
+                      ),
+                    )
                     // GestureDetector(
                     //   onTap: (){
                     //     captureScreenshot();
