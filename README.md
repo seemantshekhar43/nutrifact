@@ -33,7 +33,9 @@ these entities.
 - Simple and interactive UI
 
 ## App preview
-
+|                                                    Analysis                                                     |                                                    Nutritiona Information                                                    |                                                    Image                                                    |                                              Camera                                              |
+| :------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+| ![analysis](screenshots/analysis.jpg "Analysis") | ![Nutritional Information](screenshots/nutritional_informat_iDubV.jpg "Nutritional Information") | ![Image](screenshots/image.jpg "Image") | ![Camera](screenshots/camera.jpg "Camera")|
 
 
 ## Installation
