@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 
 
 const baseUrl = 'http://8b393b5f1be3.ngrok.io/';
-const apiKey = 'c4043567045c4ec8bd0c76735f5b897e';
+//Removed extra codes which are of no use.
 
 
 Future<Result> spellCheck(String output) async{
