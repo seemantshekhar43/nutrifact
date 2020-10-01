@@ -8,9 +8,7 @@ import 'http_exception.dart';
 import 'package:http/http.dart' as http;
 
 
-const baseUrl = 'http://8b393b5f1be3.ngrok.io/';
-//Removed extra codes which are of no use.
-
+const baseUrl = 'https://nutrifact.herokuapp.com/';
 
 Future<Result> spellCheck(String output) async{
   Result result;
